@@ -4,7 +4,7 @@ FROM node:12-alpine
 RUN apk update
 
 # Install yarn
-RUN npm install -g yarn@1
+RUN npm install -g yarn@^1.16.0
 
 RUN mkdir /app
 WORKDIR /app
