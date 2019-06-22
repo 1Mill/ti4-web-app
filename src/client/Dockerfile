@@ -1,7 +1,7 @@
 FROM node:12-alpine
 
-# Update system dependencies and install git (to get nuxt)
-RUN apk update
+# Update system dependencies and install git (to install peerjs)
+RUN apk update && apk add git
 
 # Install yarn
 RUN npm install -g yarn@^1.16.0
