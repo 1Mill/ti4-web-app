@@ -1,5 +1,17 @@
+<script>
+import { TheNav } from '@/components/TheNav'
+
+export default {
+	components: {
+		TheNav,
+	},
+}
+</script>
+
+
 <template>
-	<v-app>
+	<v-app dark>
+		<the-nav/>
 		<v-content>
 			<v-container>
 				<nuxt/>

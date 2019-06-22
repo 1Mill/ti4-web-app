@@ -46,13 +46,13 @@ export default {
 	*/
 	vuetify: {
 		theme: {
-			accent: colors.grey.darken3,
-			error: colors.deepOrange.accent4,
-			info: colors.teal.lighten1,
-			primary: colors.blue.darken2,
-			secondary: colors.amber.darken3,
-			success: colors.green.accent3,
-			warning: colors.amber.base,
+			// accent: colors.grey.darken3,
+			// error: colors.deepOrange.accent4,
+			// info: colors.teal.lighten1,
+			// primary: colors.blue.darken2,
+			// secondary: colors.amber.darken3,
+			// success: colors.green.accent3,
+			// warning: colors.amber.base,
 		},
 	},
 	/*
