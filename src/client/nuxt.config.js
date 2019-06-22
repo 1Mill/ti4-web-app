@@ -31,12 +31,14 @@ export default {
 	** Plugins to load before mounting the App
 	*/
 	plugins: [
+		'@plugins/inject-peerjs.client.js',
 	],
 	/*
 	** Nuxt.js modules
 	*/
 	modules: [
 		'@nuxtjs/vuetify',
+		'nuxt-client-init-module',
 	],
 	/*
 	** vuetify module configuration
@@ -61,7 +63,13 @@ export default {
 		** You can extend webpack config here
 		*/
 		extend(config, ctx) {
-		}
+		},
+		/*
+		** Bundle external packages
+		*/
+		vendor: [
+			'peerjs',
+		],
 	},
 	/*
 	** Configure webpack to pick up file changes
