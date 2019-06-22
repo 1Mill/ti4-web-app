@@ -1,7 +1,7 @@
 {
-  "name": "ti-player-aid-client",
+  "name": "app",
   "version": "1.0.0",
-  "description": "My phenomenal Nuxt.js project",
+  "description": "My gnarly Nuxt.js project",
   "author": "Erik Ekberg",
   "private": true,
   "scripts": {
@@ -11,12 +11,12 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "cross-env": "^5.2.0",
-    "nuxt": "^2.4.0"
+    "@nuxtjs/vuetify": "0.5.5",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.9",
-    "autoprefixer": "^8.6.4",
-    "tailwindcss": "^0.7.0"
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "nodemon": "^1.18.9"
   }
 }

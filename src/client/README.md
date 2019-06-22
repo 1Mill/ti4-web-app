@@ -1,6 +1,6 @@
-# ti-player-aid-client
+# App
 
-> My phenomenal Nuxt.js project
+> App
 
 ## Build Setup
 
