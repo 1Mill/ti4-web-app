@@ -17,7 +17,7 @@ export default {
 
 <template>
 	<div>
-		<v-layout columns>
+		<v-layout justify-around align-center>
 			<v-flex>
 				1. Select your name:
 			</v-flex>
