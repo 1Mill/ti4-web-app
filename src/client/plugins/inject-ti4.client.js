@@ -1,3 +1,6 @@
+// TODO: Does this belong here or somewhere else? Seems like it will be used a lot in a lot of different locations.
+// TODO: But not sure it needs to be global.
+
 const MAX_PLAYER_COUNT = 6
 const PLAYABLE_RACES = [
 	'Arborec',
