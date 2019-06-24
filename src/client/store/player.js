@@ -1,5 +1,7 @@
 export const state = () => ({
-	name: `Player ${Math.floor(Math.random() * (100))}`,
+	name: `Player ${Math.floor(Math.random() * (20))}`,
+	position: null,
+	race: null,
 })
 
 export const mutations = {
