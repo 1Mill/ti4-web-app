@@ -13,12 +13,9 @@ export default {
 <template>
 	<v-container>
 		<v-layout>
-			<v-flex>
-				{{ name }}
-			</v-flex>
-			<v-flex shrink>
-				{{ $peer.id }}
-			</v-flex>
+			<div>
+				Game stuff ...
+			</div>
 		</v-layout>
 	</v-container>
 </template>
