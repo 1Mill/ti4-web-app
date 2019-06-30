@@ -1,5 +1,7 @@
+import { fake } from 'faker';
+
 export const state = () => ({
-	name: `Player ${Math.floor(Math.random() * (20))}`,
+	name: fake('{{name.firstName}}'),
 	position: null,
 	race: null,
 })

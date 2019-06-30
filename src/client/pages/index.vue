@@ -3,13 +3,19 @@ import { mapState, mapMutations } from 'vuex';
 
 export default {
 	computed: {
+		...mapState('room', {
+			roomId: 'id',
+		}),
 		...mapState('player', [
 			'name',
 		]),
 	},
 	methods: {
+		...mapMutations('room', {
+			SET_ROOMID: 'SET_ID',
+		}),
 		...mapMutations('player', [
-			'SET_NAME'
+			'SET_ID',
 		]),
 	},
 }
@@ -23,8 +29,19 @@ export default {
 			</v-flex>
 			<v-flex>
 				<v-text-field
-				:value="name"
-				@input="(value) => SET_NAME(value)"
+				:value='name'
+				@input='(value) => SET_NAME(value)'
+				/>
+			</v-flex>
+		</v-layout>
+		<v-layout justify-around align-center>
+			<v-flex>
+				2. Room id
+			</v-flex>
+			<v-flex>
+				<v-text-field
+				:value='roomId'
+				@input='(value) => SET_ROOMID(value)'
 				/>
 			</v-flex>
 		</v-layout>
